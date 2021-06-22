@@ -1,8 +1,13 @@
+.text-align-center{
+    text-align: center; 
+}
+
 header{
     text-align: center;
     background-color: rgb(28, 69, 135);
     color: white;
     border: 3.5px solid black;
+    font-size: 17px;
 }
 
 footer{
@@ -16,11 +21,17 @@ footer{
 }
 
 .d-flex{
-    display: inline-flex;
+    display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-evenly;
 }
 
 aside{
     padding: 0px 5em;
+    align-self: center;
+    text-align:left;
 }
 section{
     padding-top: 5em;
@@ -29,9 +40,28 @@ section{
 .light-blue{
     background-color: rgb(205, 226, 245);
     height: 15px;
+    width:auto;
     border: none;
+    margin: 3em 0em 0em 0em
 }
 
 body{
     margin: 0vw;
+}
+
+.tab{
+    margin-left: 40px;
+}
+
+.wrap-text{
+    width:30em;
+    word-wrap:normal;
+}
+
+.middle-padding{
+    padding: 0em 0em 0em .1em;
+}
+
+.bigger-font{
+    font-size: 2.5em;
 }
