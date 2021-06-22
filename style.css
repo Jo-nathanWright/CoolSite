@@ -1,3 +1,5 @@
+
+
 .text-align-center{
     text-align: center; 
 }
@@ -11,10 +13,9 @@ header{
 }
 
 footer{
-    position:absolute;
     bottom:0;
     width:100%;
-    height: 5em;
+    height: 3.5em;
     background-color: rgb(28, 69, 135);
     color: white;
     border: 3.5px solid black;
@@ -24,12 +25,14 @@ footer{
     display: flex;
 }
 
-.justify-content-between {
-  justify-content: space-evenly;
+.justify-content-right {
+    justify-content:space-evenly;
 }
 
 aside{
+    margin-left: 8em;
     padding: 0px 5em;
+    padding-right: 0em;
     align-self: center;
     text-align:left;
 }
@@ -50,11 +53,16 @@ body{
 }
 
 .tab{
-    margin-left: 40px;
+    margin-left: 15px;
 }
 
-.wrap-text{
-    width:30em;
+.wrap-text-large{
+    width:25em;
+    word-wrap:normal;
+}
+
+.wrap-text-small{
+    width:15em;
     word-wrap:normal;
 }
 
